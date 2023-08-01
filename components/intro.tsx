@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="@\public\shashank.jpg"
+              src="/shashank.png"
               alt="Shashank's portrait"
               width="192"
               height="192"
@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/file/d/1zdCLi2ETeyIvhXVZ_3g9thzsB-2mhTO4/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1zdCLi2ETeyIvhXVZ_3g9thzsB-2mhTO4/view?usp=drive_link" target="_blank"
         >
           Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
@@ -99,7 +99,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://calendly.com/sshashanksingh/15min"
+          href="https://calendly.com/sshashanksingh/15min" target="_blank"
         >
           Meeting?{" "}
           <HiCalendar className="opacity-60 group-hover:translate-y-1 transition" />

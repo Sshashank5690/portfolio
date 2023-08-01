@@ -61,19 +61,21 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
+  { 
     title: "Similarity API",
     description:
       "Developed a similarity API website that generates an API key and retrieves the similarity between two text bodies.",
     tags: ["React", "Next.js", "Typescript", "TailwindCSS", "NextAuth.js"],
     imageUrl: similarity,
+    link:"https://github.com/Sshashank5690/similarityAPI",
   },
   {
     title: "Krypt",
     description:
-      "Developed a website utilizing Blockchain to seamlessly transfer Ethereum from one address to another via Metamask and validate Smart contracts",
+      "Developed a website utilizing Blockchain to seamlessly transfer Ethereum from one address to another via Metamask and validate Smart contracts.",
     tags: ["React", "Solidity", "Metamask", "TailwindCSS", "Ether.js"],
     imageUrl: krypt,
+    link:"https://github.com/Sshashank5690/Krypt",
   },
   {
     title: "Super Mario Maps",
@@ -81,6 +83,7 @@ export const projectsData = [
       "A public web app which shows the custom themed Google Maps for the required Area over the Google maps.",
     tags: ["Javascript", "GoogleMapsAPI", "CSS", "HTML"],
     imageUrl: supermario,
+    link:"https://github.com/Sshashank5690/Mappy",
   },
 ] as const;
 
