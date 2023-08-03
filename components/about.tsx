@@ -42,7 +42,7 @@ export default function About() {
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">how one can create a personal brand over socials.</span>. I'm also
-        learning how to Design using NO CODE..
+        learning how to Design using NO CODE.
       </p>
     </motion.section>
   );

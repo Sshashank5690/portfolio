@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { BiCool } from "react-icons/bi";
 import { LuGraduationCap } from "react-icons/lu";
 import similarity from "@/public/similarity.png";
 import krypt from "@/public/Krypt.png";
@@ -35,28 +36,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor's Of Technology",
+    location: "Kiet group of Instituitons, GZB",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Currently persuing the bachelors in Information technology and Right i'm in my Final Year.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020 - present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Front-End Developer (Y Combinator)",
+    location: "Virtual Internship",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked with startup called Shiptivitas that helps to manage the Daily task log by connecting  API's of freight Shipping Data Providers. Created the Shipping productivity tool like kanban board for marking status. Increased the overall Productivity by 15%.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Worked with Sparks as full stack Developer. Developed and integrated payment functionality into a website using Razorpay API, resulting in seamless payment processing for users, through HTML, CSS, GSAP and Javascript for user-friendly Interface.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2021",
+  },
+  {
+    title: "Working as Freelancer Developer and Designer",
+    location: "Remote",
+    description:
+      "Over the Past few Month I have been Working developer with Goal to Make Saas Provider.",
+    icon: React.createElement(BiCool),
+    date: "2023",
   },
 ] as const;
 
@@ -93,18 +102,19 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "C++",
   "Next.js",
   "Node.js",
   "Git",
+  "PHP",
   "Tailwind",
   "Prisma",
   "MongoDB",
+  "MYSQL",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Ether.js",
   "Framer Motion",
+  "Hardhat",
+  "Figma",
+  "Framer",
 ] as const;
