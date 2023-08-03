@@ -41,7 +41,7 @@ export const experiencesData = [
     description:
       "Currently persuing the bachelors in Information technology and Right i'm in my Final Year.",
     icon: React.createElement(LuGraduationCap),
-    date: "2020 - present",
+    date: "2020 - 2024(May Expected)",
   },
   {
     title: "Front-End Developer (Y Combinator)",
@@ -64,6 +64,14 @@ export const experiencesData = [
     location: "Remote",
     description:
       "Over the Past few Month I have been Working developer with Goal to Make Saas Provider.",
+    icon: React.createElement(BiCool),
+    date: "2023",
+  },
+  {
+    title: "erevald @_buildspace",
+    location: "myspace",
+    description:
+      "Started the lifelong Saas Product that i wanted to build and deploy.",
     icon: React.createElement(BiCool),
     date: "2023",
   },
