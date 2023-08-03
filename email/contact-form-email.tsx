@@ -11,6 +11,7 @@ import {
   Text,
 } from "@react-email/components";
 import { Tailwind } from "@react-email/tailwind";
+import { Img } from '@react-email/img';
 
 
 
@@ -26,11 +27,11 @@ export default function ContactFormEmail({
   return (
     <Html>
       <Head />
-      <img src="/original.jpeg" alt="" />
       <Preview>New message from your portfolio site</Preview>
       <Tailwind>
         <Body className="bg-gray-100 text-black">
           <Container>
+          <Img src="/original.png" alt="good will hunting" />
             <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
               <Heading className="leading-tight">
                 You received the following message from the contact form:
