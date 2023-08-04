@@ -19,8 +19,8 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Currently Persuing Bachelors in {" "}
-        <span className="font-medium">Information Technology</span>, Currently learning and Exploring the Software developement.
+        Currently Pursuing Bachelor's in {" "}
+        <span className="font-medium">Information Technology</span>, Along with that learning and Exploring the Software developement.
          I have great Interest in Design and Developement and doing{" "}
         <span className="font-medium">Frontend development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
