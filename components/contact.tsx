@@ -50,7 +50,7 @@ export default function Contact() {
             return;
           }
 
-          toast.success("Email sent successfully!");
+          toast.success("Bum Bum Homisapien,Shashank God Has got you Email!");
         }}
       >
         <input

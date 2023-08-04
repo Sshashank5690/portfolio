@@ -31,8 +31,8 @@ export default function ContactFormEmail({
       <Tailwind>
         <Body className="bg-gray-100 text-black">
           <Container>
-          <Img src="/original.png" alt="good will hunting" />
             <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
+            <Img src="https://images.unsplash.com/photo-1531214159280-079b95d26139?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="good will hunting" />
               <Heading className="leading-tight">
                 You received the following message from the contact form:
               </Heading>
