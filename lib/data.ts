@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { BiCool } from "react-icons/bi";
+import { BiCool, BiCrown} from "react-icons/bi";
 import { LuGraduationCap } from "react-icons/lu";
 import similarity from "@/public/similarity.png";
 import krypt from "@/public/Krypt.png";
@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "Working as Freelancer Developer and Designer",
     location: "Remote",
     description:
-      "Over the Past few Month I have been Working developer with Goal to Make Saas Provider.",
+      "Over the Past few months I have been working as a developer with Goal to make Products with better design.",
     icon: React.createElement(BiCool),
     date: "2023",
   },
@@ -71,8 +71,8 @@ export const experiencesData = [
     title: "erevald @_buildspace",
     location: "myspace",
     description:
-      "Started the lifelong Saas Product that i wanted to build and deploy.",
-    icon: React.createElement(BiCool),
+      "Started the lifelong Saas Product that i wanted to build and deploy. Want to know more head to my Twitter.",
+    icon: React.createElement(BiCrown),
     date: "2023",
   },
 ] as const;
