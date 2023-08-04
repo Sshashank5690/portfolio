@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsTwitter } from "react-icons/bs";
+import { BsTwitter, BsArrowDownCircleFill } from "react-icons/bs";
 import { HiCalendar, HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
@@ -85,8 +85,8 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          Contact me{" "}
+          <BsArrowDownCircleFill className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
