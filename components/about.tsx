@@ -32,7 +32,7 @@ export default function About() {
         </span>
         . I am also familiar with TypeScript and Cloud Technology. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-semibold">full-time engineering roles,</span>, which involves user interface and experience design, 
+        <span className="font-semibold">full-time engineering roles,</span> which involves user interface and experience design, 
         frontend engineering as the core.
       </p>
 
