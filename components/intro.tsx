@@ -11,11 +11,11 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+const { ref } = useSectionInView("Home", 0.5);
+const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
-  return (
-    <section  
+return (
+  <section  
       ref={ref}
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
@@ -63,7 +63,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Shashank.</span> I'm a{" "}
-        <span className="font-bold">Frontend developer</span> from{" "}
+        <span className="font-bold">Software developer</span> from{" "}
         <span className="font-bold">India</span>. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span> to build with better user experience.</span>
