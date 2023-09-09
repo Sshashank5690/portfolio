@@ -67,7 +67,7 @@ return (
         <span className="font-bold">India</span>. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span> to build with better user experience.</span>
-        <span className="font-bold">Currently looking for Intern Roles.</span>
+        <span className="font-bold">Currently looking for Full time Roles.</span>
       </motion.h1>
 
       <motion.div
