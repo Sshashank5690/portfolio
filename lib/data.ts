@@ -6,6 +6,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import similarity from "@/public/similarity.png";
 import krypt from "@/public/Krypt.png";
 import supermario from "@/public/super mario.png";
+import miranda from "@/public/miranda.png";
 
 export const links = [
   {
@@ -101,6 +102,14 @@ export const projectsData = [
     tags: ["Javascript", "GoogleMapsAPI", "CSS", "HTML"],
     imageUrl: supermario,
     link:"https://github.com/Sshashank5690/Mappy",
+  },
+  {
+    title: "Miranda Webpage",
+    description:
+      "A designer webpage clone with the original animations and elements to replicate the original website.",
+    tags: ["Javascript", "GSAP", "CSS", "HTML"],
+    imageUrl: miranda,
+    link:"https://github.com/Sshashank5690/MirandaHouse",
   },
 ] as const;
 
