@@ -1,12 +1,16 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { BiCool, BiCrown} from "react-icons/bi";
+import { BiCool, BiCrown, BiLogoGit} from "react-icons/bi";
 import { LuGraduationCap } from "react-icons/lu";
 import similarity from "@/public/similarity.png";
 import krypt from "@/public/Krypt.png";
 import supermario from "@/public/super mario.png";
 import miranda from "@/public/miranda.png";
+import blogit from "@/public/blogit.png";
+import chat from "@/public/chat.png";
+import newsbuddy from "@/public/newsbuddy.png";
+import moji from "@/public/moji.png";
 
 export const links = [
   {
@@ -94,6 +98,38 @@ export const projectsData = [
     tags: ["React", "Solidity", "Metamask", "TailwindCSS", "Ether.js"],
     imageUrl: krypt,
     link:"https://github.com/Sshashank5690/Krypt",
+  },
+  {
+    title: "blogit",
+    description:
+      "The fullstack blog app is a digital platform for users to create, publish, and share their written content and engage with an online community.",
+    tags: ["React", "NextJS", "MongoDB", "NextAuth", "Node.js" ,"Prisma"],
+    imageUrl: blogit,
+    link:"https://github.com/Sshashank5690/blogit",
+  },
+  {
+    title: "Friendzone",
+    description:
+      "A chat app built with React and Node.js enables real-time messaging and communication between users through a responsive and dynamic interface.",
+    tags: ["React", "Node.js", "MaterialUI", "Chatengine"],
+    imageUrl: chat,
+    link:"https://github.com/Sshashank5690/Friendzone",
+  },
+  {
+    title: "AI Buddy",
+    description:
+      "An AI-enabled news provider app offers personalized and curated news articles using advanced algorithms and natural language processing.",
+    tags: ["React", "MaterialUI", "AlanAI"],
+    imageUrl: newsbuddy,
+    link:"https://github.com/Sshashank5690/ai_news_reader",
+  },
+  {
+    title: "Text Moji",
+    description:
+      "A web app that converts text into emojis for encryption and vice versa for decryption.",
+    tags: ["React", "Tailwind", "Nodejs" ,"MongoDB"],
+    imageUrl: moji,
+    link:"https://github.com/Sshashank5690/extMOJI",
   },
   {
     title: "Super Mario Maps",
