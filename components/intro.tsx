@@ -107,7 +107,7 @@ return (
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 hover:text-cyan-300 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-teal-600"
+          className="bg-white p-4 text-gray-700 hover:text-cyan-300 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:text-cyan-300"
           href="https://twitter.com/sshashanksingh_"
           target="_blank"
         >
@@ -122,7 +122,7 @@ return (
           <FaGithubSquare />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 hover:text-blue-800 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-teal-600"
+          className="bg-white p-4 text-gray-700 hover:text-blue-800 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-blue-800"
           href="https://www.linkedin.com/in/shashank-singh-6a8791205/"
           target="_blank"
         >
