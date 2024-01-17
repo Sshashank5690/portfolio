@@ -62,7 +62,7 @@ return (
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Shashank.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm <span className="gradient-text">Shashank</span>.</span> I'm a{" "}
         <span className="font-bold">Software developer</span> from{" "}
         <span className="font-bold">India</span>. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
