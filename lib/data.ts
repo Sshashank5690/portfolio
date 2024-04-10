@@ -5,7 +5,10 @@ import { BiCool, BiCrown, BiLogoGit} from "react-icons/bi";
 import { LuGraduationCap } from "react-icons/lu";
 import similarity from "@/public/similarity.png";
 import krypt from "@/public/Krypt.png";
+import designalchemy from "@/public/designalchemy.png";
+import way from "@/public/way.png";
 import supermario from "@/public/super mario.png";
+import bestfit from "@/public/bestfit.jpg";
 import miranda from "@/public/miranda.png";
 import blogit from "@/public/blogit.png";
 import chat from "@/public/chat.png";
@@ -49,6 +52,14 @@ export const experiencesData = [
     date: "2020 - 2024(May Expected)",
   },
   {
+    title: "Launched Web Design Agency",
+    location: "India",
+    description:
+      "Launched a Web Design Agency called Design Alchemy that provides services like Web Design, Development and SEO. Worked on more than 10+ Projects across Europe and India.",
+    icon: React.createElement(CgWorkAlt),
+    date: "January(2024) - Present",
+  },
+  {
     title: "Front-End Developer (Y Combinator)",
     location: "Virtual Internship",
     description:
@@ -90,6 +101,30 @@ export const projectsData = [
     tags: ["React", "Next.js", "Typescript", "TailwindCSS", "NextAuth.js"],
     imageUrl: similarity,
     link:"https://github.com/Sshashank5690/similarityAPI",
+  },
+  {
+    title: "Design Alchemy",
+    description:
+      "Developed Website for Web Design Agency that provides services like Web Design, Development and SEO",
+    tags: ["Astro", "TailwindCSS", "Vercel"],
+    imageUrl: designalchemy,
+    link:"https://designalchemy.live",
+  },
+  {
+    title: "Aceternity UI Mockup",
+    description:
+      "Developed a website using next.js , shadcn/UI  and Aceternity UI to Create a Exceptional Animation in elementd and Ui components.",
+    tags: ["Nextjs", "Shadcn", "AceternityUI",],
+    imageUrl: way,
+    link:"https://75waydemopage.vercel.app/",
+  },
+  {
+    title: "BestFit",
+    description:
+      "Developed a customised Health app that provides the best diet and workout plan for the user based on their BMI and other health factors.",
+    tags: ["React", "OpenAi", "MaterialUI", "MongoDB"],
+    imageUrl: bestfit,
+    link:"https://www.bestshape.fit/",
   },
   {
     title: "Krypt",
@@ -157,10 +192,13 @@ export const skillsData = [
   "React",
   "C++",
   "Next.js",
+  "Astro",
+  "AceternityUI",
+  "Shadcn/UI",
   "Node.js",
   "Git",
   "PHP",
-  "Tailwind",
+  "TailwindCSS",
   "Prisma",
   "MongoDB",
   "MYSQL",
